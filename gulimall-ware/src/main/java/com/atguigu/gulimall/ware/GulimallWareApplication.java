@@ -1,13 +1,16 @@
 package com.atguigu.gulimall.ware;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import javax.swing.*;
 
 @SpringBootApplication
 public class GulimallWareApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GulimallWareApplication.class, args);
-    }
+        SpringApplication.run(GulimallWareApplication.class,args);
 
+    }
 }
